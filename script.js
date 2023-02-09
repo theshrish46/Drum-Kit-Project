@@ -14,6 +14,10 @@ const keyCode = {
     L: 76,
 };
 
+keys.forEach((key) => {
+    key.addEventListener('click', playSound())
+})
+
 function playSound(e) {
     const audio = document.querySelector(
         `audio[${keyCode[e.target.innerHTML]}]`
