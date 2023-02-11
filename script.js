@@ -1,3 +1,5 @@
+var boom = new Audio('./sounds/ride.wav')
+
 const container = document.querySelector('.container');
 
 const keys = document.querySelectorAll('.key')
@@ -15,11 +17,8 @@ const keyCode = {
 };
 
 keys.forEach((key) => {
-    key.addEventListener('click', playSound())
+    key.addEventListener('click', function() {
+        // alert('hai')
+        boom.play()
+    })
 })
-
-function playSound(e) {
-    const audio = document.querySelector(
-        `audio[${keyCode[e.target.innerHTML]}]`
-        )
-}
