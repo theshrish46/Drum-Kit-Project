@@ -9,7 +9,7 @@ This is a simple landing page of an organization and which is available as a cha
 - Please fork this repository and make changes in your local machine.
 ```
 git init
-git clone https://github.com/theshrish46/calculator.github.io.git
+git clone https://github.com/theshrish46/Drum-Kit-Project.git
 ```
 
 - Make changes using 
